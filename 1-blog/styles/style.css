@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom, #374151 0%, #111827 100%);
+}
+
+.header a {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    line-height: 38px;
+}
+
+.heroName,
+.heroProfession {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.heroProfession {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.blogDescr p {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+}
+
+.footerText {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.5);
+}
