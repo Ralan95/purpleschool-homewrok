@@ -2,6 +2,28 @@ body {
     background: linear-gradient(to bottom, #374151 0%, #111827 100%);
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 80px 180px 100px;
+}
+
+#search {
+    padding: 10px 50px;
+    background-color: rgba(31, 41, 55, 0.6);
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+}
+
+.list {
+    list-style-type: none;
+}
+
 .header a {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
@@ -10,12 +32,21 @@ body {
     text-decoration: none;
 }
 
+.header a:hover {
+    color: #b8b7b7;
+}
+
 .title {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #fff;
     line-height: 38px;
+    margin-bottom: 30px;
+}
+
+.hero {
+    margin-bottom: 30px;
 }
 
 .heroName,
@@ -24,6 +55,12 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #fff;
+}
+
+.img {
+    display: block;
+    margin: 0 auto 70px;
+    border-radius: 5px;
 }
 
 .heroProfession {
@@ -36,6 +73,15 @@ body {
     font-size: 20px;
     line-height: 32px;
     color: #fff;
+    margin-bottom: 30px;
+}
+
+.blogDescr p:last-child {
+    margin-bottom: 0;
+}
+
+.footer {
+    padding: 77px 0;
 }
 
 .footerText {
