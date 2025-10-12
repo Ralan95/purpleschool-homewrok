@@ -1,5 +1,7 @@
 body {
     background: linear-gradient(to bottom, #374151 0%, #111827 100%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 * {
@@ -8,8 +10,17 @@ body {
     box-sizing: border-box;
 }
 
-.header {
-    padding: 80px 180px 100px;
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-inner {
+    padding: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #search {
@@ -22,37 +33,64 @@ body {
 
 .list {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.list>li:first-child {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo {
+    color: #fff;
+    width: 35px;
+    padding: 12px;
+    border-radius: 3px;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(75, 85, 99, 1);
+
 }
 
 .header a {
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
+    transition: color 0.5s ease;
 }
 
 .header a:hover {
     color: #b8b7b7;
 }
 
-.title {
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: #fff;
-    line-height: 38px;
+.section-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
     margin-bottom: 30px;
 }
 
+.title {
+    max-width: 525px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    line-height: 38px;
+}
+
 .hero {
-    margin-bottom: 30px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-decoration: none;
 }
 
 .heroName,
 .heroProfession {
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #fff;
 }
@@ -67,13 +105,18 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.blogDescr {
+    max-width: 708px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 30px;
+}
+
 .blogDescr p {
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 32px;
     color: #fff;
-    margin-bottom: 30px;
 }
 
 .blogDescr p:last-child {
@@ -85,8 +128,7 @@ body {
 }
 
 .footerText {
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    text-align: center;
     font-size: 16px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.5);
