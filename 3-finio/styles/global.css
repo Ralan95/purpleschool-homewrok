@@ -1,0 +1,16 @@
+.title {
+    color: var(--black-color);
+    font-size: 48px;
+    font-weight: var(--fw-600);
+    line-height: 58px;
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--ghost-color);
+    font-size: 17px;
+    font-weight: var(--fw-500);
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}

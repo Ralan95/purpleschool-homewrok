@@ -1,0 +1,100 @@
+.cards {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fit, 364px);
+    justify-content: center;
+}
+
+.card {
+    padding: 93px 40px 48px;
+    box-shadow: 0px 0px 32px 0px rgba(78, 93, 124, 0.16);
+    border-radius: var(--border-8);
+}
+
+.card_accent {
+    background-color: var(--blue-accent);
+}
+
+.card__benefit {
+    padding: 4px 16px;
+    background-color: var(--green-accent);
+    max-width: 124px;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--white-color);
+    text-align: center;
+    border-radius: var(--border-8);
+    margin-bottom: 16px;
+}
+
+.card__title {
+    font-size: 32px;
+    font-weight: var(--fw-800);
+    line-height: 39px;
+    color: var(--black-color);
+    margin-bottom: 16px;
+}
+
+.card__descr {
+    font-size: 17px;
+    font-weight: var(--fw-500);
+    line-height: 21px;
+    color: var(--ghost-color);
+    margin-bottom: 50px;
+}
+
+.card__price {
+    margin-bottom: 40px;
+}
+
+.card__price-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.card__price-info p {
+    font-size: 17px;
+    font-weight: var(--fw-500);
+    line-height: 21px;
+    color: rgba(78, 93, 124, 1);
+}
+
+.card__price-info_accent {
+    max-width: 99px;
+    padding: 8px 16px;
+    border-radius: var(--border-8);
+    background-color: var(--yellow-accent);
+    text-align: center;
+    color: var(--white-color) !important;
+}
+
+.card_white-accent {
+    color: var(--white-color) !important;
+}
+
+.card_white-dvd {
+    background-color: rgba(255, 255, 255, 0.16) !important;
+}
+
+.card__price-divider {
+    height: 1px;
+    background-color: rgba(78, 93, 124, 0.08);
+    margin: 16px 0;
+}
+
+.card__button {
+    display: inline-block;
+    width: 100%;
+    border-radius: 47px;
+    background-color: var(--blue-accent);
+    color: var(--white-color);
+    padding: 12px;
+    text-align: center;
+}
+
+.card__button_accent {
+    background-color: var(--white-color);
+    color: var(--blue-accent);
+}
